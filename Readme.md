@@ -33,7 +33,7 @@ Key steps included:
 - Congestion Surcharge: Set to 0 (not applicable in Q1 2018)  
 - Airport Fee, Improvement Surcharge, MTA Tax: Corrected and standardized  
 - Trip Distance: Replaced negatives, zeros, and outliers with imputed values  
-- Payment Type: Fixed invalid codes, restricted to [1, 2, 3]  
+- Payment Type: Fixed invalid paymeny types based on total amount 
 - Tip Amount: Set to 0 for all cash payments  
 - Amount Columns: Corrected signs, replaced anomalies with grouped means  
 - JFK Flat Rate: Standardized to ±52 for flat-rate trips  
@@ -61,10 +61,10 @@ A regression pipeline was developed using 11 curated features.
 - Hyperparameter Tuning: RandomizedSearchCV on a 20k subset  
 
 ### Results
-- XGBoost performed best:
-  - R² = 0.91  
-  - MAE = $0.89 (~7% of average fare $13)  
-  - RMSE = $3.13  
+- Random Forest performed best:
+  - R² = 0.93  
+  - MAE = $0.86 (~7% of average fare $13)  
+  - RMSE = $2.72  
 
 ## Conclusion
 - The dataset was successfully cleaned and engineered for analysis  
