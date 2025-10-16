@@ -68,6 +68,6 @@ A regression pipeline was developed using 11 curated features.
 
 ## Conclusion
 - The dataset was successfully cleaned and engineered for analysis  
-- Predictive models were built, with XGBoost outperforming alternatives  
+- Predictive models were built, with Random Forest outperforming alternatives  
 - Achieved strong predictive accuracy, valuable for fare forecasting and urban mobility insights  
 
