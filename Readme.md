@@ -62,9 +62,9 @@ A regression pipeline was developed using 11 curated features.
 
 ### Results
 - Random Forest performed best:
-  - R² = 0.93  
-  - MAE = $0.86 (~7% of average fare $13)  
-  - RMSE = $2.72  
+  - R² = 0.94  
+  - MAE = $0.84 (~6% of average fare $13)  
+  - RMSE = $2.64  
 
 ## Conclusion
 - The dataset was successfully cleaned and engineered for analysis  
